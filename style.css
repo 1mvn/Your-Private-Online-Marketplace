@@ -82,13 +82,15 @@ span{
 
 .container1_item1>p{
     margin-top: 50px;
-    width: 828px;
+    max-width: 828px;
     height: 54px;
     color: #666666;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
+    width: 100%; 
+    height: auto;
 }
 
 .container1_item1>button{
@@ -137,22 +139,23 @@ span{
 }
 
 .container2_item2{
-    width: 1239px;
-    height: 60px;
-    position: relative;
-    top: 45px;
+    max-width: 1239px;
+    width: 100%; 
+    height: auto;
+    margin: 0 auto;
 }
 
-.container2_item2>img{
-    width: 200px;
+.container2_item2>img {
+    max-width: 200px;
+    width: 100%; 
+    height: auto;
 }
+
 
 .container2_item3{
     display: flex;
     justify-content: center; 
-    align-items: center; 
-    position: relative;
-    top: 20px;        
+    align-items: center;       
     gap: 7px;
 }
 
