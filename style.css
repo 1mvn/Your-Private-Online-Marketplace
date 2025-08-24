@@ -70,7 +70,7 @@ header>h1{
 } 
 
 .container1_item1>h1{
-    font-weight: ;
+    font-weight: 700;
     margin-top: 90px;
     font-size: 50px; 
     color: #474747;
@@ -113,4 +113,61 @@ span{
 .container1_item1>a{
     color: #666666;
     text-decoration-color: #CACACA;
+}
+
+.container2{
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container2_item1>h2{
+    margin-top: 100px;
+    color: #474747;
+}
+
+.container2_item1>p{
+    max-width: 800px; 
+    margin: 0 auto;
+    text-align: center; 
+    color: #666666;
+}
+
+.container2_item2{
+    width: 1239px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: -1px;
+}
+
+.container2_item2>img{
+    width: 200px;
+}
+
+.container2_item3{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;        
+    gap: 7px;
+}
+
+.container2_item3>div{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: none;
+    background-color: #E6E6E6;
+
+}
+
+.container2_item3>div:nth-child(2){
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+    background-color: #4579CB;
 }
