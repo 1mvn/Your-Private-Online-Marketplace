@@ -139,8 +139,8 @@ span{
 .container2_item2{
     width: 1239px;
     height: 60px;
-    margin-top: 45px;
-    margin-left: -1px;
+    position: relative;
+    top: 45px;
 }
 
 .container2_item2>img{
@@ -151,7 +151,8 @@ span{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin-top: 20px;        
+    position: relative;
+    top: 20px;        
     gap: 7px;
 }
 
